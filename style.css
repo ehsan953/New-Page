@@ -1,0 +1,50 @@
+.body {
+  font-family: Roboto;
+}
+.header {
+  background-color: rgb(228, 112, 62);
+  display: flex;
+  padding: 20px 0;
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+.header-item {
+  margin: auto;
+  position: relative;
+  float: right;
+}
+/* .bell-icon {
+  position: relative;
+} */
+.bell {
+  margin-right: 30px;
+}
+.bell-icon {
+  font-size: 37px;
+}
+.bell-dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: rgb(9, 180, 9);
+  position: absolute;
+  top: -2px;
+  right: 3px;
+}
+.bell-dot2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(228, 112, 62);
+  position: absolute;
+  top: -2px;
+  right: 3px;
+}
+.form {
+  height: 600px;
+  width: 70%;
+  /* background-color: khaki; */
+  margin: 20px auto;
+  box-shadow: 0px 0px 5px rgb(224, 216, 216);
+}
