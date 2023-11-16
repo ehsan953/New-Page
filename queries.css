@@ -1,0 +1,12 @@
+/**************************************/
+/*Below 832 px*/
+/**************************************/
+@media (max-width: 52em) {
+  /* .flex-container div {
+    width: 40%;
+  } */
+  .flex-container {
+    width: 100%;
+    column-gap: 5px;
+  }
+}

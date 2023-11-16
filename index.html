@@ -16,18 +16,19 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="header-item" style="margin-left: 80px">
-        <i class="fa-solid fa-arrow-left-long"></i>
-        <span style="font-size: 22px">Back</span>
+        <i class="fa-solid fa-arrow-left-long" style="cursor: pointer"></i>
+        <span style="font-size: 22px; cursor: pointer">Back</span>
       </div>
       <div class="header-item" style="font-size: 30px">Create Compaign</div>
       <div class="header-item bell">
-        <i class="fa-solid fa-bell bell-icon"></i>
+        <i class="fa-solid fa-bell bell-icon" style="cursor: pointer"></i>
         <div class="bell-dot2"></div>
         <div class="bell-dot"></div>
       </div>
@@ -57,6 +58,7 @@
                 font-size: 15px;
                 padding: 8px 10px;
                 font-weight: 100;
+                cursor: pointer;
                 margin-bottom: 0;
               "
             ></span>
@@ -67,29 +69,6 @@
           <label for="Brand Name" class="form-label">Brand Name</label>
           <input type="text" class="form-input" placeholder="Brand Name here" />
         </div>
-
-        <div>
-          <label for="Compaign objective" class="form-label"
-            >Compaign Objective</label
-          >
-          <select name="" id="" class="form-input">
-            <option value="Brand awareness"></option>
-            <option value="Brand awareness">Brand Awareness</option>
-            <option value="Brand awareness">Brand Awareness</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="Compensation type" class="form-label"
-            >Compensation type</label
-          >
-          <select name="" id="" class="form-input">
-            <option value="Paid + Gifted"></option>
-            <option value="Paid + Gifted">Paid + Gifted</option>
-            <option value="Paid + Gifted">Paid + Gifted</option></select
-          ><br />
-        </div>
-
         <div>
           <label for="Compaign Name" class="form-label"
             >Total Compaign Budget</label
@@ -99,6 +78,16 @@
             class="form-input"
             placeholder="Compaign Budget"
           /><br />
+        </div>
+        <div>
+          <label for="Compaign objective" class="form-label"
+            >Compaign Objective</label
+          >
+          <select name="" id="" class="form-input">
+            <option value="Brand awareness"></option>
+            <option value="Brand awareness">Brand Awareness</option>
+            <option value="Brand awareness">Brand Awareness</option>
+          </select>
         </div>
         <div>
           <label for="Compaign Name" class="form-label"
@@ -111,6 +100,17 @@
           ><br />
         </div>
         <div>
+          <label for="Compensation type" class="form-label"
+            >Compensation type</label
+          >
+          <select name="" id="" class="form-input">
+            <option value="Paid + Gifted"></option>
+            <option value="Paid + Gifted">Paid + Gifted</option>
+            <option value="Paid + Gifted">Paid + Gifted</option></select
+          ><br />
+        </div>
+
+        <div>
           <label for="Compaign Name" class="form-label">Gift value</label>
           <input
             type="text"
@@ -121,11 +121,14 @@
       </div>
       <div>
         <label for="Gift Details" class="form-label">Gift Details</label><br />
-        <input
-          type="text"
+        <textarea
+          name=""
+          id=""
+          rows="2"
           class="form-input input-details"
           placeholder="Enter details about the gift each influencer will recieve"
-        /><br />
+        ></textarea>
+        <br />
       </div>
       <div>
         <label for="Compaign summary" class="form-label">Compaign summary</label
@@ -134,11 +137,14 @@
           >You may want to share an introduction to your brand, product and what
           you are hoping to achieve with this compaign. </span
         ><br />
-        <input
-          type="text"
+        <textarea
+          name=""
+          id=""
+          rows="2"
           class="form-input input-details"
           placeholder="Provide influencers a summary of your Compaign"
-        /><br />
+        ></textarea>
+        <br />
       </div>
       <button class="form-submit-btn">Submit</button>
     </div>
